@@ -14,3 +14,15 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+a.previous {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #f1f1f1;
+  color: black;
+  border-radius: 50%;
+  font-size: 30px;
+  position:absolute;
+}
