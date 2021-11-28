@@ -6,7 +6,7 @@ const Product = ({ product }) => {
     return (
         <Link href={`products/${product.id}`} passHref>
         <div className={styles.card}>
-            <Image src={product.image} alt={product.title} className={styles.img} />
+            <img src={product.image} alt={product.title} className={styles.img} />
             <h1 className={styles.title} title={product.title}>{product.title}</h1>
             <p className={styles.price}>${product.price}</p>
             <p className={styles.desc} title={product.description}>{product.description}</p>
