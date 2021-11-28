@@ -1,5 +1,4 @@
 
-import Link from 'next/link'
 import Product from '../../components/Product';
 import BackButton from '../../components/BackButton';
 import styles from '../../styles/Product.module.css'
