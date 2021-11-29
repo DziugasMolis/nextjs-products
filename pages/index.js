@@ -28,6 +28,10 @@ export default function Home() {
           </Link>
         </p>
 
+        <p className={styles.description}>
+          Laba diena BIT
+        </p>
+
 
       </main>
 
